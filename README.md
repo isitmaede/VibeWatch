@@ -34,5 +34,5 @@ VibeWatch is a mobile application built with React Native that provides movie re
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/YourGitHubUsername/VibeWatch.git](https://github.com/YourGitHubUsername/VibeWatch.git)
+git clone [https://github.com/isitmaede/VibeWatch.git](https://github.com/isitmaede/VibeWatch.git)
 cd VibeWatch
