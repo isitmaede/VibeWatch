@@ -1,11 +1,11 @@
-// src/screens/SplashScreen.tsx
+
 import React, { useEffect } from 'react';
 import { View, Text, Image, StyleSheet, Dimensions, I18nManager } from 'react-native';
 import { useRouter } from 'expo-router';
-import { scale, verticalScale, moderateScale } from '../utils/metrics'; // Assuming these are correctly implemented
-import colors from '@/components/colors'; // Your defined colors
+import { scale, verticalScale, moderateScale } from '../utils/metrics'; 
+import colors from '@/components/colors'; 
 
-// Get screen dimensions for more robust centering
+
 const { height } = Dimensions.get('window');
 
 export default function SplashScreen() {
@@ -16,14 +16,13 @@ export default function SplashScreen() {
       try {
         // Simulate any initial loading or data fetching
         await new Promise(resolve => setTimeout(resolve, 3000));
-        // Navigate to the home tab after the splash screen
+       
         router.replace('/pages/main');
       } catch (err: any) {
-        // Log the error instead of using Alert.alert for better compatibility
+       
         console.error('An unexpected error occurred during app initialization:', err);
-        // Optionally, you could show a user-friendly message on the screen
-        // or attempt to navigate anyway if the error is non-critical.
-        router.replace('/pages/main'); // Attempt to proceed even on error
+        
+        router.replace('/pages/main'); 
       }
     };
 
