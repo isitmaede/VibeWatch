@@ -31,6 +31,9 @@ VibeWatch is a mobile application built with React Native that provides movie re
 * Git
 * (Optional) Expo CLI (`npm install -g expo-cli` or `yarn global add expo-cli` if using Expo managed workflow)
 
+
+![Screenshot 1](image1.jpeg)
+
 ### 1. Clone the Repository
 
 ```bash
